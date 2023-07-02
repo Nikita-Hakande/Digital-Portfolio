@@ -1,0 +1,246 @@
+<html>
+<head>
+  <title>y Digital Portfolio</title>
+  <style>
+    body {
+      background-color: #66a8f9; /* Replace with your desired color */
+    }
+  </style>
+
+</head>
+</body>
+   <header>
+     <h1>My Digital Portfolio</h1>
+     <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Education">Education</a></li>
+            <li><a href="#work">work</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Certificate">Certificate</a></li>
+            <li><a href="#Registration form">Registration form</a></li>
+            <li><a href="#contact">Contact</a></li>
+         
+        </ul>
+      </nav>     
+    </header>   
+ 
+<section id="about">
+  <button>Click me</button>
+  <body>
+    <!-- <style>
+          square-image {
+          width: 100px; /* Adjust the width and height as per your requirements */
+          height: 100px;
+          overflow: square; /* Clips the image to the shape of the container */
+          }
+
+          square-image img {
+          width: 100px;
+          height: 120px;
+          object-fit: cover; /* Ensures the image fills the square without stretching */
+          }
+   </style> -->
+
+   <h1> My Photo</h1>
+   <style>
+    
+    
+    .image-container img:nth-child(1) {
+      
+      top: 0;
+      left: 0;
+      width: 250; /* Adjust the value as needed */
+      height: 300px;
+    }
+  </style>
+   
+   <div class="image-container">
+    <img src="C:\Users\nikita\OneDrive\Pictures\nikita img2 final.jpg" alt="Image 1">
+  </div>
+   <!-- <h1>My Photo</h1> -->
+   <!-- <img src="C:\Users\nikita\OneDrive\Pictures\nikki img2.jpg" alt="Description of the image"> -->
+   </body>
+   <h2>About Me</h2>
+  Welcome to my digital portfolio <br>
+
+ I am Nikita Hakande, a passionate Electronics Engineer with a drive for Excellence. Through this portfolio, I aim to showcase my skills,
+
+ experiences, and projects to demonstrate my expertise in electrical drawings,planning of projects and seeking various assignments.
+ 
+ With one year of experience in Electrical projects and assignments,I have successfully achieved both practical as well as
+ 
+ theoretical knowledge of different electrical Instruments.I m constantly seeking new opportunities to grow,learn,and collaborate on
+
+ exciting ventures.</p>
+
+ <p>Feel free to explore my portfolio and learn more about my work. If you have any questions or would like to connect, please don't hesitate to reach out to me using the contact information provided.</p>
+ </body>
+ </html>
+  </section>
+  <br>
+  <section id="Education">
+    <h2>Education</h2>
+    <ul>
+        <li><strong> SCHOOL: </strong> K. John Public School </li>
+        <li><strong> College: </strong> Saraswat Jr. College </li>
+       <li><strong>  MITAOE</strong>, BTech in Electronics Engineering, Expected Graduation: 2026</li>
+     
+     
+    </ul>
+   </section> <br>
+
+  <section id="work">
+    <h2>My Work</h2> 
+    <!-- Add your work samples, projects, or case studies here -->
+    <ul>
+      <li> Locomotion projects & model </li> 
+        <li>EGR Portfolio </li> 
+       <li> DT Project & Model </li> 
+       <li> Truss Model </li>
+      </ul>
+  </section>
+  <br>
+  
+ <section id="Skills">
+  <h2>Skills</h2>
+  <ul>
+   <li>Programming languages: C, PYTHON, HTML, CSS </li>
+   <li>Design software: powerpoint and spreadsheet </li>
+  
+  </ul> 
+ </section><br> <br>
+  
+     </style>
+     <section id="Certificate">
+      <body>
+    
+   <h2>Certificate</h2>
+   
+   
+   <style>
+    .image-container img:nth-child(2) {
+    
+      width: 90%;     /* Adjust the value as needed */
+      height: auto;
+    }
+  </style>
+    <div class="image-container">
+  
+      <img src="C:\Users\nikita\OneDrive\Desktop\Nikita 726\Cisco Certificate.jpg" alt="Image 2">
+    </div>
+ 
+<!--    
+   <body>
+      <h1>My Video</h1>
+      <video src="C:\Users\Asus\DIGITAL PORTFOLIO\Cute-Baby-Laughing-Cutie-full-Screen.mp4" width="640" height="360" autoplay loop muted>
+         Your browser does not support the video tag.
+       </video>
+    </body> 
+     Add your work samples, projects, or case studies here 
+  </section> - -->
+ 
+    
+    <body>
+               
+      <h1>
+          Registration form
+      </h1>
+      <form id="Registration form">
+          Candidate Full Name:   <input type="text" placeholder= "Candidate Full Name"> 
+          <br> <br>
+          Father name:  <input type="text" placeholder =" Father name"> 
+          <br> <br> 
+          Mother  Name:   <input type="text" placeholder="Mother  Name"> 
+          <br> <br> 
+          Gender: 
+          <input type="radio" name="gender" value="male" required> Male
+          <input type="radio" name="gender" value="female" required> Female
+          <!-- Gender: 
+                  <select gender="gender">
+                      <option value ="male">male</option>
+                      <option value ="Female">female</option>
+                      
+                  </select> -->
+                  <br> <br>
+                  Date of Birth: <input type="date"> 
+                  <br> <br>
+                  E-mail : <input type="text"  placeholder= "email@xyz.com">
+                  <br> <br> 
+                  Password: <input type="password" name="password" placeholder="Password" required> <br>
+                 
+                  <h2>
+                      Department: 
+                  </h2>
+
+                  <select name="course" required>
+                      <option value="">Select Course</option>
+                      <option value="computer_science">Computer Science</option>
+                      <option value="electrical engineering">electrical engineering</option>
+                      <option value="civil engineering">civil engineering</option>
+                      <option value="mechanical engineering">mechanical engineering</option>
+                      <option value="chemical engineering">chemical engineering</option>
+                    </select>
+          
+      <br> <br> 
+      Phone  Number : <input type="Number"  placeholder= "xxxxxxxxxx">
+      <br> <br> 
+
+      College Address:  <textarea name="address_college" placeholder="College Address" required></textarea> <BR> 
+      <br>
+      OTP : <input type="Number"  placeholder= "xxxx">
+      <br> <br>
+      College Website:  <input type="url" name="college_website" placeholder="College Website" required> <br>
+       <br>
+ 
+     
+      Address : <input type="text"  placeholder >
+      <br> <br>
+     
+
+      <input type="submit" value="Submit">
+ 
+  
+
+      </form>
+     
+  </body>
+</title> 
+<br> 
+
+<section id="contact">
+  <head>
+<title>Contact Form</title>
+<style>
+/* Add your CSS styles here */
+</style>
+</head>
+<body>
+
+    <h1>Contact Us</h1>
+    <form action="submit-form.php" method="POST">
+      <label for="name">Name:</label>
+      <input type="Nikita Hakande" value="Nikita Hakande"> <br> <br>
+      <!-- <input type="Nikita Hakande" id="name" name="Nikita Hakande" required> -->
+
+      <label for="email">Email:</label>
+      <input type="nikita.hakande@mitaoe.ac.in" value="nikita.hakande@mitaoe.ac.in"> <br> <br>
+      
+ 
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea> <br> <br>
+
+      <input type="submit" value="Submit">
+    </form>
+</body>
+
+
+
+    <!-- Add your contact information and any contact form if desired -->
+  </section>
+
+  <footer>
+    <!-- Add your footer content here -->
+  </footer>
+</body>
+</html>
